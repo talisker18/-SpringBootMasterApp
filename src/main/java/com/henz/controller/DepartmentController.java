@@ -12,9 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.henz.entity.Department;
+import com.henz.entity.department.Department;
 import com.henz.error.DepartmentNotFoundException;
-import com.henz.service.DepartmentService;
+import com.henz.service.department.DepartmentService;
 
 import jakarta.validation.Valid;
 

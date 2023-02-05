@@ -1,0 +1,146 @@
+{
+	"info": {
+		"_postman_id": "adf3d717-4488-470f-a6bf-dd20ccbc05f6",
+		"name": "SpringBootMasterApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14747068"
+	},
+	"item": [
+		{
+			"name": "Department",
+			"item": [
+				{
+					"name": "create new department",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"departmentName\":\"test\",\r\n    \"departmentAddress\":\"test\",\r\n    \"departmentCode\":\"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8082/departments",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all departments",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8082/departments",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get department by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8082/departments/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete department by id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8082/departments/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update department",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"departmentName\":\"test update\",\r\n    \"departmentAddress\":\"test update\",\r\n    \"departmentCode\":\"test update\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8082/departments/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get department by name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8082/departments/name/TEST2",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"departments",
+								"name",
+								"TEST2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

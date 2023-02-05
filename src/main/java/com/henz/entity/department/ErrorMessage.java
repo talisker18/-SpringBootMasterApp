@@ -1,4 +1,4 @@
-package com.henz.entity;
+package com.henz.entity.department;
 
 import org.springframework.http.HttpStatus;
 

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.henz.entity.ErrorMessage;
+import com.henz.entity.department.ErrorMessage;
 
 @ControllerAdvice //add this advice to all controllers
 @ResponseStatus

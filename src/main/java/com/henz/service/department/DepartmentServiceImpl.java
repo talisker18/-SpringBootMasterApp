@@ -1,4 +1,4 @@
-package com.henz.service;
+package com.henz.service.department;
 
 import java.util.List;
 import java.util.Objects;
@@ -7,7 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.henz.entity.Department;
+import com.henz.entity.department.Department;
 import com.henz.error.DepartmentNotFoundException;
 import com.henz.repository.DepartmentRepository;
 

@@ -1,8 +1,8 @@
-package com.henz.service;
+package com.henz.service.department;
 
 import java.util.List;
 
-import com.henz.entity.Department;
+import com.henz.entity.department.Department;
 import com.henz.error.DepartmentNotFoundException;
 
 public interface DepartmentService {
